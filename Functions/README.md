@@ -1,6 +1,4 @@
-##################
 # Custom Functions
-##################
 
 This folder contains helper functions used for data generation and analysis.
 
