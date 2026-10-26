@@ -13,4 +13,4 @@ Generates synthetic data with configurable categorical and numerical features, c
 * `d`: Integer. Number of continuous variables.
 * `k`: Integer. Number of categorical variables.
 * `m`: Integer. Number of categories per categorical variable.
-* `imbalance_ratio`: Numeric. Ratio of majority to minority class. 
+* `imbalance_ratio`: Numeric. Ratio of majority to minority class. `n_minority` = `n` / (1 + `imbalance_ratio`); `n_majority` = n - `n_minority`
